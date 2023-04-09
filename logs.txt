@@ -1,0 +1,30 @@
+* commit a1d8b214ccdfd7f3b01f8d2a0fb86172484337c5 (HEAD -> master, SI_2023_lab1_173191/master, SI_2023_lab1_173191/bug3,
+ bug3)
+| Author: Daree <darko_filip4e@hotmail.com>
+| Date:   Sun Apr 9 12:09:42 2023 +0200
+|
+|     Fix method sumEvenNumbers
+|
+*   commit 46e026eb47b9bf46931cc74b09ea91b3ccf7a026
+|\  Merge: 130c181 c2386ed
+| | Author: Daree <darko_filip4e@hotmail.com>
+| | Date:   Sun Apr 9 12:20:16 2023 +0200
+| |
+| |     Merge branch 'bug2'
+| |
+| * commit c2386edc1471ee7d5b9dd5c2e52f14a3b83275d1 (SI_2023_lab1_173191/bug2, bug2)
+| | Author: Daree <darko_filip4e@hotmail.com>
+| | Date:   Sun Apr 9 12:07:37 2023 +0200
+| |
+| |     Fix wrong condition in filterOddNumbers
+| |
+* | commit 130c1814833a28915327816644ce43beb292d47b (SI_2023_lab1_173191/bug1, bug1)
+|/  Author: Daree <darko_filip4e@hotmail.com>
+|   Date:   Sun Apr 9 12:03:25 2023 +0200
+|
+|       Fix wrong loop for reading
+|
+* commit becbe710393e076ffa1285e94ee59d63f59d1e05
+| Author: Daree <darko_filip4e@hotmail.com>
+| Date:   Sun Apr 9 11:41:32 2023 +0200
+:

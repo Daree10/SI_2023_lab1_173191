@@ -1,0 +1,62 @@
+git init
+
+git clone https://github.com/Daree10/SI_2023_lab1_173191.git
+
+git remote add SI_2023_lab1_173191 https://github.com/Daree10/SI_2023_lab1_173191.git
+
+git config --global user.email "darko_filip4e@hotmail.com"
+git config --global user.name "Daree"
+
+git add README.md && git commit -m "Initial commit" README.md
+
+git add SILab1.java && git commit -m "Add java class" SILab1.java
+
+git push --set-upstream SI_2023_lab1_173191 master
+
+git branch bug1
+
+git branch bug2
+
+git branch bug3
+
+git checkout master
+
+git checkout bug1
+
+git add SILab1.java && git commit -m "Fix wrong loop for reading" SILab1.java
+
+git checkout bug2
+
+git add SILab1.java && git commit -m "Fix wrong condition in filterOddNumbers" SILab1.java
+
+git checkout bug3
+
+git add SILab1.java && git commit -m "Fix method sumEvenNumbers" SILab1.java
+
+git push --all
+
+git checkout master
+
+git merge bug1
+
+git push
+
+git fetch --all -Pp
+
+git merge bug2
+
+git push
+
+git fetch --all -Pp
+
+git checkout bug3
+
+git rebase master
+
+git checkout master
+
+git merge bug3
+
+git push --all --force
+
+git log --graph
